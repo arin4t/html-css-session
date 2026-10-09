@@ -1,0 +1,14 @@
+h4{
+    color: darkgreen;
+}
+
+h5{
+    color:aquamarine;
+}
+
+h6{
+    color: aquamarine;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}

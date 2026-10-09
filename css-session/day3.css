@@ -1,0 +1,33 @@
+body{
+     background-color:rgb(11, 70, 57);
+     font-family: 'Times New Roman', Times, serif;
+}
+.profile{
+    font-size:  20px;
+    background-color:rgb(70, 179, 142);
+    text-align: left;
+    border:4px black dotted ;
+    width:500px;
+    border-radius:8px;
+
+    /*35px is used in top to bottom and auto is used for center*/
+    margin:35px auto;
+
+    padding:25px;
+    /*four side ko padding all in one*/
+    padding:15px 25px 10px 20px;
+    /*first one value 25px is use in top and bottom and second one is used in left and right*/
+    padding: 25px 20px;
+}
+.profile h1{
+    /*RGB vaneko red green blue*/
+    color:rgb(185, 235, 138);
+}
+#button:hover{
+    background-color:rgb(93, 93, 93);
+}
+#box:focus{
+    background-color:plum;
+    border:5px solid rgb(207, 40, 233);
+
+}
