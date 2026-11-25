@@ -1,0 +1,25 @@
+.container{
+    /* display:none; ->  used to hide the elements*/
+
+        display: flex;
+        flex-direction: row;
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+        /* justify-content: flex-start; */
+         /* justify-content: flex-end;  */
+         /* justify-content: center; */
+         /* justify-content: space-between; */
+         /* justify-content: space-around; */
+         justify-content: space-evenly;
+
+
+}
+
+.box{
+    background-color:rgb(209, 82, 133);
+    padding: 20px;
+    margin: 5px;
+    color:azure;
+    border-radius: 5px;
+}

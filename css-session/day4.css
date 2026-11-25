@@ -1,0 +1,46 @@
+.head{
+    text-align: center;
+    background-color: rgba(41, 39, 116, 0.988);
+    color: aliceblue;
+    border: 3px black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.sub-head{
+    background-color: rgb(17, 14, 46);
+    color: rgb(178, 180, 181);
+    border: 3px black;
+    padding-top: 20px;
+    padding-bottom:10px;
+    text-align: center;
+    
+}
+
+.me{
+    background-color: whitesmoke;
+     padding-top: 20px;
+    padding-bottom:30px;
+    border-radius: 10px;
+    margin: 30px;
+     padding: 20px;
+    
+}
+.hobbies{
+    background-color:whitesmoke;
+     padding-top: 20px;
+    padding-bottom:30px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.skills{
+    background-color:whitesmoke;
+     padding-top: 20px;
+    padding-bottom:30px;
+    border-radius: 10px;
+    margin: 30px;
+     padding: 20px;
+
+}

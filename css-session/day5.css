@@ -1,0 +1,26 @@
+.container{
+    background-color: darkcyan;
+    padding: 20px;
+}
+
+.item1{
+    background-color:lightgoldenrodyellow;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.item2{
+    background-color:lightgoldenrodyellow;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left:1360px;
+}
+
+
+
