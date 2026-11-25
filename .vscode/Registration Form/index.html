@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Registration Form</title>
+    <link rel="stylesheet"  href="index.css">
+
+</head>
+<body>
+    
+    
+        <form class="Form-card">
+            <h1>Registration Form</h1>
+            <p class="sub"> Fill in your details below.</p>
+            
+
+            <!-- Full name field-->
+            <div class="field">
+                <label class="title"> Full Name 
+                    <span class="text-danger">*</span> </label>
+
+            <input type="text"   id="FullName"  placeholder="Enter your Full name" required>
+             </div>
+            
+
+             <!-- Password field-->
+        
+            <div class="field">
+                <label class="title"> Password 
+                    <span class="text-danger">*</span> </label>
+
+            <input type="password"   id="Password"  placeholder="Enter your Password" required>
+             </div>
+
+
+              <!-- Address field-->
+        
+            <div class="field">
+                <label class="title"> Address
+                    <span class="text-danger">*</span> </label>
+
+            <input type="text"   id="Address"  placeholder="Enter your Address" required>
+             </div>
+
+
+             <!-- District field-->
+        
+            <div class="field">
+                <label class="title"> Select District 
+                    <span class="text-danger">*</span> </label>
+
+
+            <select id="District" required>
+                <option value="0" disabled selected>Select District</option>
+                <option value="Rupendehi">Rupendehi</option>
+                <option value="KTM">Kathmandu</option>
+                <option value="Bagmati">Bagmati</option>
+                <option value="palpa">Palpa</option>
+            </select></div>
+
+
+             <!-- Date of Birth Field-->
+        
+            <div class="field">
+                <label class="title"> Date of Birth
+                    <!-- Red danger color so we put danger in there *  -->
+                    <span class="text-danger">*</span> </label>
+
+            <input type="date"   id="DOB"  placeholder="MM/DD/YYYY" required>
+             </div>
+
+             <!-- Gender Field-->
+              <fieldset>
+                <span class="legend"> Gender <span class="text-danger">*</span></span> 
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" value="Male" name="Gender"> <span>Male</span>
+                    </label>
+
+                    <label class="option">
+                        <input type="radio" value="Female" name="Gender"> <span>Female</span>
+                    </label>
+                </div>
+              </fieldset>
+
+
+              <!-- Hobbies Section-->
+               <fieldset>
+                <span class="legend"> Hobbies <span class="text-danger">*</span></span> 
+                <div class="options">
+                    <label class="option">
+                        <input type="checkbox" value="football" name="Hobbies"> <span>football</span>
+                    </label>
+
+                    <label class="option">
+                        <input type="checkbox" value="vollyball" name="Hobbies"> <span>vollyball</span>
+                    </label>
+
+                    <label class="option">
+                        <input type="checkbox" value="chess" name="Hobbies"> <span>chess</span>
+                    </label>
+
+                    <label class="option">
+                        <input type="checkbox" value="TT" name="Hobbies"> <span>TT</span>
+                    </label>
+                </div>
+              </fieldset>
+
+
+
+                <!--Message field-->
+        
+            <div class="field">
+                <label class="title"> Message</label>
+            <textarea id="Message" placeholder="Write your Message here..." required></textarea>
+             </div>
+
+
+             <!-- Buttons Field-->
+
+             <div class="buttons">
+                <button type="reset">Clear</button>
+                <button type="submit"> Submit</button>
+             </div>
+
+
+        </form>
+
+</body>
+</html>

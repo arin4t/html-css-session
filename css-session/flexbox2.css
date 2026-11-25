@@ -1,0 +1,88 @@
+.container1{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    
+}
+.Circle1{
+    background-color: rgb(101, 215, 177);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: azure;
+    border-radius: 50%;
+}
+
+
+.container2{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+.Circle2{
+    background-color: rgb(215, 101, 126);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: azure;
+    border-radius: 50%;
+}
+
+.container3{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.Circle3{
+    background-color: rgb(234, 233, 125);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: azure;
+    border-radius: 50%;
+}
+
+.container4{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.Circle4{
+    background-color: rgb(101, 198, 203);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: azure;
+    border-radius: 50%;
+}
+
+
+.container5{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.Circle5{
+    background-color: rgb(125, 234, 154);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: azure;
+    border-radius: 50%;
+}
+
+
+.container6{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.Circle6{
+    background-color: rgb(234, 187, 125);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: azure;
+    border-radius: 50%;
+}
+
